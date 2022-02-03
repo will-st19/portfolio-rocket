@@ -1,107 +1,155 @@
 :root {
-    --body-bg-color: #22212C;
-    --text-color: #837E9F;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+.avatar-user {
+  border-radius: 50% !important;
 }
 
 body {
-    margin: 0px;
-    background: var(--body-bg-color);
+  margin: 0px;
+  margin-left: 30px;
+  background: var(--body-bg-color);
 }
-  
-h1, h2, h3, p, li {
-    margin: 0px;
-    color: var(--text-color);
-    font-family: 'Merriweather Sans', sans-serif;
+
+h1,
+h2,
+h3,
+p,
+li {
+  margin: 0px;
+  color: var(--text-color);
+  font-family: "Merriweather Sans", sans-serif;
 }
-  
+
 ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+aside {
+  margin: 0px;
+  width: 348px;
 }
 
 .profile {
-    background: var(--bg-cards);
-    height: 292px;
-    width: 348px;
-    margin-top: 30px;
-    border-radius: 4px;
-}
-
-.profile h2::before {
-    content: '';
-    display: block;
-    background: white;
-    height: 128px;
-    width: 128px;
-    border-radius: 50%;
-}
-
-.container-profile {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .links {
-    background: var(--bg-cards);
-    height: 348px;
-    width: 348px;
-    margin-top: 30px;
-    border-radius: 4px;
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .links li {
-    display: grid;
-    grid-template-columns: 1fr 8fr;
-    padding: 12px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .technologies {
-    background: var(--bg-cards);
-    height: 208px;
-    width: 348px;
-    margin-top: 30px;
-    border-radius: 4px;
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.technologies li {
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;  
+}
+
+.technologies-languages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  place-content: center;
+  padding: 20px;
+}
+
+.technologies-languages li {
+  background: var(--bg-techs);
+  height: 24px;
+  width: 86px;
+  border-radius: 25px;
+  box-sizing: border-box;
 }
 
 .experiences {
-    background: var(--bg-cards);
-    height: 292px;
-    width: 348px;
-    margin-top: 30px;
-    border-radius: 4px;
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;
+  display: flex;  
+  gap: 20px;
+  flex-direction: column;  
+}
+
+.experiences ul {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  flex-direction: column;
+  list-style-type: circle;
+  padding-left: 48px;
 }
 
 .education {
-    background: var(--bg-cards);
-    height: 292px;
-    width: 348px;
-    margin-top: 30px;
-    border-radius: 4px;
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;  
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 
-.languages {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    place-content: center;
-    padding: 20px
-    ;
-}
-
-.languages li {
-    background: var(--bg-techs);
-    height: 24px;
-    width: 86px;
-    padding: 5px 10px;
-    border-radius: 4px;
+.education ul {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  flex-direction: column;
+  list-style-type: circle;
+  padding-left: 48px;
 }
