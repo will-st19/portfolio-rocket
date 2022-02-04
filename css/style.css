@@ -6,11 +6,12 @@
   --text-color: #837e9f;
   --bg-cards: #302f3d;
   --bg-techs: #cb92b1;
+  --border-color: #00FF00;
 }
 
 .avatar-user {
   border-radius: 50% !important;
-  border: solid 0.15em #00FF00;
+  border: solid 0.15em var(--border-color);
 }
 
 .avatar-projects {

@@ -21,6 +21,18 @@
   font: 400 0.81rem/1.25 "Merriweather Sans", sans-serif;
 }
 
+.font-1-m {
+  font: 400 0.875rem/1.42 "Merriweather Sans", sans-serif;
+}
+
+.font-2-m {
+  font: 400 1rem/1.25 "Merriweather Sans", sans-serif;
+}
+
+.font-3-m {
+  font: 700 1rem/1.25 "Merriweather Sans", sans-serif;
+}
+
 .font-16px {
   font-family: "Merriweather Sans", sans-serif;
   font-style: normal;
