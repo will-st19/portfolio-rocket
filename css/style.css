@@ -7,6 +7,11 @@
 
 .avatar-user {
   border-radius: 50% !important;
+  border: solid 0.15em #00FF00;
+}
+
+.avatar-projects {
+  border-radius: 50% !important;
 }
 
 body {
