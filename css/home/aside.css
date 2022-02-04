@@ -1,0 +1,122 @@
+.profile {
+  background: var(--bg-cards);
+  width: 348px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile img {
+  border: solid 0.15em var(--border-color);
+}
+
+.links {
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links li {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.links a {
+  padding: 5px;
+  display: block;
+}
+
+.technologies {
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+.technologies li {
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;  
+}
+
+.technologies-languages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  place-content: center;
+  padding: 20px;
+}
+
+.technologies-languages li {
+  display: flex;
+  background: var(--bg-techs);
+  height: 24px;
+  width: 86px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiences {
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;
+  display: flex;  
+  gap: 20px;
+  flex-direction: column;  
+}
+
+.experiences ul {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  flex-direction: column;
+  list-style-type: circle;
+  padding-left: 48px;
+}
+
+.education {
+  background: var(--bg-cards);
+  width: 348px;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 32px;
+  box-sizing: border-box;  
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.education ul {
+  display: flex;
+  gap: 20px;
+  align-items: left;
+  flex-direction: column;
+  list-style-type: circle;
+  padding-left: 48px;
+}

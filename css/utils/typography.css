@@ -1,0 +1,62 @@
+/* menor */
+.font-1-xs {
+  font: 400 0.75rem/1.26 "Merriweather Sans", sans-serif;
+}
+
+/* médio */
+.font-1-xs-m {
+  font: 500 0.75rem/1.26 "Merriweather Sans", sans-serif;
+}
+
+/* bold */
+.font-1-xs-b {
+  font: 700 0.875rem/1.26 "Merriweather Sans", sans-serif;
+}
+
+.font-2-xs {
+  font: 300 0.81rem/1.25 "Merriweather Sans", sans-serif;
+}
+
+.font-3-xs {
+  font: 400 0.81rem/1.25 "Merriweather Sans", sans-serif;
+}
+
+.font-1-m {
+  font: 400 0.875rem/1.42 "Merriweather Sans", sans-serif;
+}
+
+.font-2-m {
+  font: 400 1rem/1.25 "Merriweather Sans", sans-serif;
+}
+
+.font-3-m {
+  font: 700 1rem/1.25 "Merriweather Sans", sans-serif;
+}
+
+.font-16px {
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.font-18px {
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.font-l {
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.font-xl {
+  font-family: "Merriweather Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+}
