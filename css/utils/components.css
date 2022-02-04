@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.avatar-user {
+  border-radius: 50%;
+}
