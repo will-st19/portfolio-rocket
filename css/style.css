@@ -124,11 +124,14 @@ main {
 }
 
 .technologies-languages li {
+  display: flex;
   background: var(--bg-techs);
   height: 24px;
   width: 86px;
   border-radius: 25px;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
 .experiences {
