@@ -1,0 +1,44 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+  --border-color: #00ff00;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #837e9f;
+  background: var(--body-bg-color);
+}
+
+h1, h2, h3, h4, ul, p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+aside {
+  margin: 0px;
+  width: 348px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
