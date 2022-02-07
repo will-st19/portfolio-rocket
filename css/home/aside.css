@@ -1,6 +1,6 @@
 .profile {
   background: var(--bg-cards);
-  width: 348px;
+  /* width: 348px; */
   border-radius: 4px;
   text-align: center;
   padding: 32px;
@@ -17,7 +17,7 @@
 
 .links {
   background: var(--bg-cards);
-  width: 348px;
+  /* width: 348px; */
   margin-top: 30px;
   border-radius: 4px;
   padding: 32px;
@@ -43,7 +43,7 @@
 
 .technologies {
   background: var(--bg-cards);
-  width: 348px;
+  /* width: 348px; */
   margin-top: 30px;
   border-radius: 4px;
   padding: 32px;
@@ -81,7 +81,7 @@
 
 .experiences {
   background: var(--bg-cards);
-  width: 348px;
+  /* width: 348px; */
   margin-top: 30px;
   border-radius: 4px;
   padding: 32px;
@@ -102,7 +102,7 @@
 
 .education {
   background: var(--bg-cards);
-  width: 348px;
+  /* width: 348px; */
   margin-top: 30px;
   border-radius: 4px;
   padding: 32px;
@@ -119,4 +119,16 @@
   flex-direction: column;
   list-style-type: circle;
   padding-left: 48px;
+}
+
+@media (max-width: 800px) {
+  .technologies-languages {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .technologies-languages {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

@@ -48,6 +48,7 @@
 .li-flex {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .ul-grid {
@@ -76,4 +77,19 @@
 .li-flex-2 {
   display: flex;
   gap: 16px;
+}
+
+@media (max-width: 800px) {
+  .projects-detail,
+  .projects-img {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-img .avatar-user {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
 }
